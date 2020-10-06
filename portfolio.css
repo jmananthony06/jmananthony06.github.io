@@ -1109,19 +1109,123 @@ footer .socialIcons i:hover {
 }
 
 @media (max-width: 320px) {
-    
+
+    .headerNav {
+        display: none;
+    }
+
+    .rectanglesContainer {
+        margin: auto;
+        margin-left: 40px;
+    }
+
     .socialIcons {
         width: 88%; 
-        margin-left: 17%;
     }
 
-    .scrollDown {
-        margin-left: 22%;
+    .socialIcons i {
+        height: 50px;
+        width: 50px;
     }
 
-    .technologiesUsed {
-        height: 25px;
-        width: 25px;
+    .blueRectangleTwo .timeline {
+        margin: 10px auto;
+    }
+
+    .imageContainer .imgOne,
+    .imageContainer .imgTwo,
+    .imageContainer .imgThree {
+        margin-bottom: 200px;
+    }
+
+    .cartoonImageContainer {
+        flex-direction: column;
+        margin-top: -500px;
+    }
+
+    .xboxIcon {
+        margin-top: 650px;
+    }
+
+    .keyboardIcon {
+        margin-top: 360px;
+    }
+
+    .jsIcon {
+        margin-top: 350px;
+    }
+
+    .abilities {
+        margin-top: 290%;
+        max-width: 100%;
+        height: 1100px
+    }
+
+    .abilities button {
+        margin: 0 0 18px 25%;
+        width: 50%;
+    }
+
+    .abilities h1 {
+        font-size: 24px;
+    }
+
+    .abilities .groupOne,
+    .abilities .groupTwo {
+        flex-direction: column;
+        height: 410px;
+        max-width: 320px;
+        display: flex;
+    }
+
+    .groupOne {
+        max-width: 320px;
+    }
+
+    .groupTwo {
+        max-width: 320px;
+    }
+
+    .abilityOne,
+    .abilityTwo {
+        flex-direction: column;
+        max-width: 320px;
+        width: 315px;
+        margin: auto;
+        margin-left: 0;
+    }
+
+    .groupTwo .abilityTwo {
+        background-color: #343434;
+    }
+
+    .groupTwo .abilityTwo h3 {
+        color: white;
+    }
+
+    .groupTwo .abilityTwo p {
+        color: white;
+    }
+
+    .groupTwo .abilityOne {
+        background-color: white;
+    }
+
+    .groupTwo .abilityOne h3 {
+        color: #343434;
+    }
+
+    .groupTwo .abilityOne p {
+        color: #343434;
+    }
+
+    .portfolioDiv {
+        margin-top: 800%;
+    }
+
+    .technologiesUsed img {
+        height: 30px;
+        width: 30px;
     }
 
     .pCardTextOne,
@@ -1133,5 +1237,20 @@ footer .socialIcons i:hover {
     .pCardTextSeven,
     .pCardTextEight {
         width: 300px;
+    }
+
+    .cardTitle {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .card {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .pCardText {
+        max-width: 300px;
+        margin: auto;
     }
 }
