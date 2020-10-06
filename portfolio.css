@@ -1151,6 +1151,7 @@ footer .socialIcons i:hover {
     .cartoonImageContainer {
         flex-direction: column;
         margin-top: -500px;
+        max-width: 50%;
     }
 
     .xboxIcon {
@@ -1231,6 +1232,11 @@ footer .socialIcons i:hover {
 
     .portfolioDiv {
         margin-top: 800%;
+    }
+
+    .technologiesUsed {
+        max-width: 315px;
+        flex-wrap: wrap;
     }
 
     .technologiesUsed img {
