@@ -842,6 +842,8 @@ footer .socialIcons i:hover {
     }
 }
 
+/**** 768PX QUERY ****/
+
 @media (max-width: 768px) {
     .headerNav {
         width: 50%;
@@ -933,6 +935,8 @@ footer .socialIcons i:hover {
         margin-left: -33%;
     }
 }
+
+/**** 500PX QUERY ****/
 
 @media (max-width: 500px) {
 
@@ -1108,6 +1112,8 @@ footer .socialIcons i:hover {
 
 }
 
+/**** 320PX QUERY ****/
+
 @media (max-width: 320px) {
 
     .headerNav {
@@ -1117,6 +1123,10 @@ footer .socialIcons i:hover {
     .rectanglesContainer {
         margin: auto;
         margin-left: 40px;
+    }
+
+    .welcomeDiv {
+        max-width: 315px;
     }
 
     .socialIcons {
