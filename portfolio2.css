@@ -649,7 +649,71 @@ footer .socialIcons i:hover {
 
 /***********************************************************/
 
+/**** 500 PX QUERY ****/
 
+@media (min-width: 500px) {
+    
+    .logoContainer {
+        margin: auto;
+        margin-left: 190px;
+    }
+    
+    .rectanglesContainer {
+        margin-left: 18px;
+    }
+
+    .rectanglesContainer .greyRectangle {
+        width: 450px;
+    }
+
+    .aboutTextContainer .blueRectangleTwo {
+        width: 430px;
+    }
+
+    .abilities button {
+        margin-left: 160px;
+    }
+
+    .technologiesUsed img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .galleryCard {
+        width: 425px;
+    }
+}
+
+/**** 600 PX QUERY ****/
+
+@media (min-width: 600px) {
+
+    .rectanglesContainer {
+        margin-left: 24px;
+    }
+    
+    .rectanglesContainer .greyRectangle {
+        width: 540px;
+    } 
+
+    .aboutTextContainer .blueRectangleTwo {
+        width: 525px;
+    }
+
+    .abilities .groupOne .abilityOne {
+        width: 100%;
+    }
+
+    .abilities button {
+        margin-left: 210px;
+    }
+
+    .galleryCard {
+        width: 520px;
+    }
+}
+
+/**** 768 PX QUERY ****/
 
 @media (min-width: 768px) {
     
@@ -927,6 +991,10 @@ footer .socialIcons i:hover {
     .rectanglesContainer .blueRectangle {
         min-width: 1100px;
         margin-left: 11%;
+    }
+
+    .aboutTextContainer .blueRectangleTwo {
+        width: 100%;
     }
 
     .abilities {
