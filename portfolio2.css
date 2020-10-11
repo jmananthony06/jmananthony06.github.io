@@ -107,7 +107,7 @@ header {
 .greyRectangle {
     border: 7px solid #343434;
     height: 250px;
-    width: 290px;
+    width: 100%;
 }
 
 .greyRectangle h1 {
@@ -262,7 +262,6 @@ p.slideTop {
 /***********************/
 
 .aboutMeDiv {
-    /* width: 100%;    */
     margin-top: 3%; 
 }
 
@@ -303,7 +302,7 @@ p.slideTop {
 .blueRectangleTwo {
     border: 7px solid #c1dff0;
     height: 200px;
-    width: 270px;
+    width: 100%;
     margin: 10px 0 0 7px;
 }
 
@@ -441,7 +440,9 @@ p.slideTop {
     border: none;
     font-size: 16px;
     text-align: center;
-    margin-left: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     margin-top: 15px;
 }
 
@@ -655,24 +656,20 @@ footer .socialIcons i:hover {
     
     .logoContainer {
         margin: auto;
-        margin-left: 190px;
+        /* margin-left: 190px; */
     }
     
     .rectanglesContainer {
         margin-left: 18px;
     }
 
-    .rectanglesContainer .greyRectangle {
+    /* .rectanglesContainer .greyRectangle {
         width: 450px;
-    }
+    } */
 
-    .aboutTextContainer .blueRectangleTwo {
+    /* .aboutTextContainer .blueRectangleTwo {
         width: 430px;
-    }
-
-    .abilities button {
-        margin-left: 160px;
-    }
+    } */
 
     .technologiesUsed img {
         height: 35px;
@@ -692,20 +689,16 @@ footer .socialIcons i:hover {
         margin-left: 24px;
     }
     
-    .rectanglesContainer .greyRectangle {
+    /* .rectanglesContainer .greyRectangle {
         width: 540px;
-    } 
+    }  */
 
-    .aboutTextContainer .blueRectangleTwo {
+    /* .aboutTextContainer .blueRectangleTwo {
         width: 525px;
-    }
+    } */
 
     .abilities .groupOne .abilityOne {
         width: 100%;
-    }
-
-    .abilities button {
-        margin-left: 210px;
     }
 
     .galleryCard {
@@ -817,7 +810,6 @@ footer .socialIcons i:hover {
     }
 
     .groupTwo button {
-        margin-left: 170px;
         width: 50%;
         padding: 15px;
     }
@@ -845,7 +837,6 @@ footer .socialIcons i:hover {
     .rectanglesContainer {
         width: 800px;
         max-width: 1024px;
-        /* margin: 0 auto; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -954,10 +945,6 @@ footer .socialIcons i:hover {
         width: 700px;
     }
 
-    .groupTwo button {
-        margin-left: 155px;
-    }
-
     .technologiesUsed img {
         height: 85px;
         width: 85px;
@@ -979,18 +966,28 @@ footer .socialIcons i:hover {
 
 @media only screen and (min-width: 1200px) {
     
+    .logoContainer {
+        /* margin-left: 100%; */
+    }
+
+    .headerNav {
+        width: 25%;
+    }
+
     .rectanglesContainer {
-        min-width: 85%;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 8%;
     }
 
-    .rectanglesContainer .greyRectangle {
-        min-width: 1100px;
-        margin-left: -50px;
+    .blueRectangle {
+        max-width: 100%;
     }
 
-    .rectanglesContainer .blueRectangle {
-        min-width: 1100px;
-        margin-left: 11%;
+    .socialIcons {
+        margin-bottom: 5%; 
+        width: 55%;  
     }
 
     .aboutTextContainer .blueRectangleTwo {
@@ -1002,7 +999,6 @@ footer .socialIcons i:hover {
     }
 
     .abilities button {
-        margin-left: 510px;
         width: 250px;
     }
 
