@@ -36,7 +36,8 @@ header {
 }
 
 .headerNav {
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
 }
 
 .headerNav a:hover {
@@ -66,7 +67,8 @@ header {
 .logoContainer {
     height: 40px;
     margin-bottom: 6px;
-    margin-left: 115px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .whiteLogo {
@@ -111,7 +113,6 @@ header {
 }
 
 .greyRectangle h1 {
-    /* margin: 18% auto 0 auto; */
     text-align: center;
     margin-top: 90px;
     color: #343434;
@@ -485,7 +486,6 @@ p.slideTop {
 }
 
 .portfolioCardWrapper .card > p {
-    /* position: absolute; */
     padding: 10px 0;
     bottom: 99%;
     left: 0;
@@ -500,13 +500,8 @@ p.slideTop {
 }
 
 .card {
-    /* position: relative; */
-    /* margin: 3vw; */
-    /* margin-bottom: 300px; */
     width: 100%;
     height: 400px;
-    /* height: 425px; */
-    /* box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2); */
 }
 
 .cardTitle {
@@ -520,7 +515,6 @@ p.slideTop {
 }
 
 .pCardText {
-    /* position: absolute; */
     padding: 20px;
     top: 100%;
     width: 100%;
@@ -636,7 +630,6 @@ footer {
 footer .socialIcons {
     width: 80%;
     margin: 0 auto;
-    /* margin-top: 10px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -654,30 +647,21 @@ footer .socialIcons i:hover {
 
 @media (min-width: 500px) {
     
-    .logoContainer {
-        margin: auto;
-        /* margin-left: 190px; */
-    }
-    
     .rectanglesContainer {
         margin-left: 18px;
     }
-
-    /* .rectanglesContainer .greyRectangle {
-        width: 450px;
-    } */
-
-    /* .aboutTextContainer .blueRectangleTwo {
-        width: 430px;
-    } */
 
     .technologiesUsed img {
         height: 35px;
         width: 35px;
     }
 
+    .portfolioCardWrapper {
+        width: 100%;
+    }
+
     .galleryCard {
-        width: 425px;
+        width: 420px;
     }
 }
 
@@ -688,14 +672,6 @@ footer .socialIcons i:hover {
     .rectanglesContainer {
         margin-left: 24px;
     }
-    
-    /* .rectanglesContainer .greyRectangle {
-        width: 540px;
-    }  */
-
-    /* .aboutTextContainer .blueRectangleTwo {
-        width: 525px;
-    } */
 
     .abilities .groupOne .abilityOne {
         width: 100%;
@@ -709,6 +685,10 @@ footer .socialIcons i:hover {
 /**** 768 PX QUERY ****/
 
 @media (min-width: 768px) {
+
+    .logoContainer {
+        margin-left: 100%;
+    }
     
     header a {
         text-decoration: none;
@@ -967,7 +947,7 @@ footer .socialIcons i:hover {
 @media only screen and (min-width: 1200px) {
     
     .logoContainer {
-        /* margin-left: 100%; */
+        margin-left: 150px;
     }
 
     .headerNav {
