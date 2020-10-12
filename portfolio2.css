@@ -211,17 +211,20 @@ p.slideTop {
 /* downCaret Keyframe */
 
 .slideBottom {
-    animation: slideBottom 1.5s cubic-bezier(.25,.46,.45,.94) 3 both;
+    animation: slideBottom 1.5s ease-in-out 3 both;
     animation-delay: 2s;
 }
 
 @keyframes slideBottom {
-     0% {
-         transform:translateY(0);
-        }
-     100% {
-         transform:translateY(20px);
-        }
+    0% {
+        transform:translateY(0);
+    }
+    50% {
+        transform:translateY(40px);
+    }
+    100% {
+        transform:translateY(0);
+    }
 }
 
 .slideFwdCenter {
