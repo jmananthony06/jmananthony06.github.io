@@ -436,7 +436,7 @@ p.slideTop {
     font-weight: 400;
 }
 
-.abilityTwo button {
+.abilityTwo a {
     padding: 5px 8px;
     width: 100px;
     background-color: #c1dff0;
@@ -448,9 +448,11 @@ p.slideTop {
     margin-right: auto;
     display: block;
     margin-top: 15px;
+    text-decoration: none;
+    color: #343434;
 }
 
-.abilityOne button:hover {
+.abilityOne a:hover {
     background-color: #77bee7;
     transition: ease-in-out .4s;
 }
@@ -644,6 +646,119 @@ footer .socialIcons i:hover {
     transition: .3s;
 }
 
+/********** MUSIC PAGE **********/
+
+.musicDiv {
+    width: 100%;
+}
+
+.musicDiv img {
+    margin: auto;
+}
+
+.back {
+    position: absolute;
+    left: 35%;
+    top: 12%;
+    color: #343434;
+    background-color: transparent;
+    border: 5px solid #c1dff0;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    outline: none;
+}
+
+.back:hover {
+    background-color: #343434;
+    color: white;
+    transition: ease-in-out .2s;
+}
+
+.back:hover::after {
+    content: "";
+    background-color: #343434;
+    color: white;
+    outline: none;
+}
+
+.projectsContainer {
+    margin-top: 60%;
+}
+
+.projects,
+.singles {
+    margin-top: 70%;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: #343434;
+}
+
+.singles {
+    margin-top: 70%;
+}
+
+.singlesContainer {
+    margin-top: 60%;
+}
+
+.starzz a,
+.keith a,
+.daxon a,
+.chrishan a {
+    color: #343434;
+    background-color: transparent;
+    border: 5px solid #c1dff0;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    outline: none;
+    margin-left: 33%;
+}
+
+.starzz a:hover,
+.keith a:hover,
+.daxon a:hover,
+.chrishan a:hover {
+    background-color: #343434;
+    color: white;
+    transition: ease-in-out .2s;
+}
+
+.starzz a::after,
+.keith a::after,
+.daxon a::after,
+.chrishan a::after {
+    content: "";
+    background-color: #343434;
+    color: white;
+    outline: none;
+    transition: .2s;
+}
+
+.starzz,
+.daxon {
+    margin-bottom: 40%;
+}
+
+.keith,
+.chrishan {
+    margin-bottom: 15%;
+}
+
+.starzz img,
+.keith img,
+.daxon img,
+.chrishan img {
+    width: 310px;
+    height: 310px;
+    border-radius: 5px;
+    display: flex;
+}
+
 /***********************************************************/
 
 /**** 500 PX QUERY ****/
@@ -792,7 +907,7 @@ footer .socialIcons i:hover {
         width: 100%;
     }
 
-    .groupTwo button {
+    .groupTwo a {
         width: 50%;
         padding: 15px;
     }
@@ -813,6 +928,31 @@ footer .socialIcons i:hover {
     footer .socialIcons {
         width: 65%;
     }
+
+    /* MUSIC PAGE */
+
+    .back {
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+    .starzz img,
+    .keith img,
+    .daxon img,
+    .chrishan img {
+        width: 550px;
+        height: 550px;
+    }
+
+    .starzz a,
+    .keith a,
+    .daxon a,
+    .chrishan a {
+        margin-left: 42.5%;
+        width: 100px;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -945,6 +1085,24 @@ footer .socialIcons i:hover {
         margin: 1vw;
     }
 
+    /* MUSIC PAGE */
+
+    .starzz img,
+    .keith img,
+    .daxon img,
+    .chrishan img {
+        width: 800px;
+        height: 800px;
+    }
+
+    .starzz a,
+    .keith a,
+    .daxon a,
+    .chrishan a {
+        margin-left: 44.5%;
+        width: 100px;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -981,7 +1139,7 @@ footer .socialIcons i:hover {
         width: 70%;
     }
 
-    .abilities button {
+    .abilities a {
         width: 250px;
     }
 
@@ -991,6 +1149,15 @@ footer .socialIcons i:hover {
 
     .galleryCard {
         width: 700px;
+    }
+
+    /* MUSIC PAGE */
+
+    .starzz a,
+    .keith a,
+    .daxon a,
+    .chrishan a {
+        margin-left: 47%;
     }
 }
 
