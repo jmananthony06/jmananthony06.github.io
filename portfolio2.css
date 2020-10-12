@@ -452,9 +452,10 @@ p.slideTop {
     color: #343434;
 }
 
-.abilityOne a:hover {
-    background-color: #77bee7;
-    transition: ease-in-out .4s;
+.abilityTwo a:hover {
+    background-color: #37a6e7;
+    transition: ease-in-out .2s;
+    color: white;
 }
 
 
