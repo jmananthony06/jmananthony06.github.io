@@ -500,7 +500,7 @@ p.slideTop {
 
 .galleryCard {
     min-width: 300px;
-    max-width: 700px;
+    /* max-width: 700px; */
     width: 35vw;
     margin: 5vw;
 }
@@ -563,57 +563,65 @@ p.slideTop {
 .projectFour {
     background-image: url('./img/project-4-img.png');
     background-position: center top;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-color: #c1dff0;
 }
 
 .projectFive {
     background-image: url('./img/Projec-5-img.png');
     background-position: center top;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-color: #c1dff0;
 }
 
 .projectSix {
     background-image: url('./img/Project-6-img.png');
     background-position: center top;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-color: #c1dff0;
 }
 
 .projectSeven {
     background-image: url('./img/Project-7-img.png');
     background-position: center top;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-color: #c1dff0;
 }
 
 .projectEight {
     background-image: url('./img/Project-8-img.png');
     background-position: center top;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-color: #c1dff0;
 }
 
 .fsjsOne {
     background-image: url('./img/FSJS-1-img.png');
     background-position: center top;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-color: #c1dff0;
 }
 
 .fsjsTwo {
     background-image: url('./img/FSJS-2-img.png');
     background-position: center top;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-color: #c1dff0;
 }
 
 .aPlus {
     background-image: url('./img/Aplusscreenshot.png');
     background-position: center top;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-color: #c1dff0;
 }
 
 .construction {
